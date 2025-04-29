@@ -16,11 +16,6 @@ public class TrailPlanner {
 
   public TrailPlanner(int[][] map) {
     this.map = map;
-    this.init();
-  }
-
-  private void init() {
-    this.map = map;
     topEdge = 0;
     bottomEdge = map.length - 1;
     leftEdge = 0;
